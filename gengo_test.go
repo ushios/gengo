@@ -1,6 +1,7 @@
 package gengo
 
 import (
+	"fmt"
 	"testing"
 	"time"
 )
@@ -25,4 +26,12 @@ func AtTest(t *testing.T) {
 	test("1926-12-24 23:59:59 +0900", Taisho)
 	test("1912-07-30 00:00:00 +0900", Taisho)
 	test("1912-07-29 23:59:59 +0900", Meiji)
+}
+
+func ExampleNow() {
+	g := Now()
+
+	fmt.Println(g)
+	// Output:
+	// 平成
 }

@@ -10,12 +10,13 @@ Instalation
 $ go get github.com/ushios/gengo
 ```
 
-Example
+Examples
 --------
 
 ```go
 g := gengo.Now()
 
 fmt.Println(g)
+// Output:
 // 平成
 ```
