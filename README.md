@@ -21,3 +21,12 @@ fmt.Println(g)
 // Output:
 // 平成
 ```
+
+```go
+t, _ := time.Parse("2006-01-02 15:04:05 -0700", "1912-07-29 23:59:59 +0900")
+g := gengo.At(t)
+
+fmt.Println(g)
+// Output:
+// 明治
+```

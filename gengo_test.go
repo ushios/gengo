@@ -28,10 +28,27 @@ func AtTest(t *testing.T) {
 	test("1912-07-29 23:59:59 +0900", Meiji)
 }
 
+func NowTest(t *testing.T) {
+	g := Now()
+
+	if g != Heisei {
+		t.Errorf("expected(%s) but (%s) now", Heisei, g)
+	}
+}
+
 func ExampleNow() {
 	g := Now()
 
 	fmt.Println(g)
 	// Output:
 	// 平成
+}
+
+func ExampleAt() {
+	t, _ := time.Parse(DateTimeFormat, "1912-07-29 23:59:59 +0900")
+	g := At(t)
+
+	fmt.Println(g)
+	// Output:
+	// 明治
 }
