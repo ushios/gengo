@@ -7,9 +7,14 @@ Get gengo
 Instalation
 -------------
 
-```shell
+```bash
 $ go get github.com/ushios/gengo
 ```
+
+Documentation
+-------------
+
+[![GoDoc](https://godoc.org/github.com/ushios/gengo?status.svg)](https://godoc.org/github.com/ushios/gengo)
 
 Examples
 --------
