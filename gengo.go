@@ -24,8 +24,8 @@ func NewGengoFromString(start, jn string) Gengo {
 	}
 }
 
-// Start is gengo start time.
-func (g Gengo) Start() time.Time {
+// StartAt is gengo start time.
+func (g Gengo) StartAt() time.Time {
 	return g.start
 }
 
