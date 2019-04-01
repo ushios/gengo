@@ -56,6 +56,7 @@ var (
 	Taisho Gengo
 	Showa  Gengo
 	Heisei Gengo
+	Reiwa   Gengo
 )
 
 func init() {
@@ -63,8 +64,9 @@ func init() {
 	Taisho = NewGengoFromString("1912-07-30 00:00:00 +0900", "大正")
 	Showa = NewGengoFromString("1926-12-25 00:00:00 +0900", "昭和")
 	Heisei = NewGengoFromString("1989-01-08 00:00:00 +0900", "平成")
+	Reiwa = NewGengoFromString("2019-05-01 00:00:00 +0900", "令和")
 
 	gengos = []Gengo{
-		Heisei, Showa, Taisho, Meiji,
+		Reiwa, Heisei, Showa, Taisho, Meiji,
 	}
 }
