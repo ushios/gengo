@@ -1,6 +1,7 @@
 ushios/gengo
 =============
 [![Build Status](https://travis-ci.org/ushios/gengo.svg?branch=master)](https://travis-ci.org/ushios/gengo) [![Coverage Status](https://coveralls.io/repos/github/ushios/gengo/badge.svg?branch=master)](https://coveralls.io/github/ushios/gengo?branch=master)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fushios%2Fgengo.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fushios%2Fgengo?ref=badge_shield)
 
 Get gengo
 
@@ -35,3 +36,7 @@ fmt.Println(g)
 // Output:
 // 明治
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fushios%2Fgengo.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fushios%2Fgengo?ref=badge_large)
